@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ObjC-CGI' target in the 'ObjC-CGI' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

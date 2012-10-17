@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD30F07162E9C7F00BCE829 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30F06162E9C7F00BCE829 /* Cocoa.framework */; };
+		1DD30F11162E9C8000BCE829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DD30F0F162E9C8000BCE829 /* InfoPlist.strings */; };
+		1DD30F22162E9CB100BCE829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30F21162E9CB100BCE829 /* Foundation.framework */; };
+		1DD30F25162E9CB100BCE829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30F24162E9CB100BCE829 /* main.m */; };
+		1DD30F29162E9CB100BCE829 /* ObjC_CGI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DD30F28162E9CB100BCE829 /* ObjC_CGI.1 */; };
+		1DD30F2F162EA48300BCE829 /* CGIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD30F2D162EA48300BCE829 /* CGIApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD30F30162EA48300BCE829 /* CGIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30F2E162EA48300BCE829 /* CGIApplication.m */; };
+		1DD30F31162EA4A100BCE829 /* CGIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD30F13162E9C8000BCE829 /* CGIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD30F34162ECDC400BCE829 /* CGIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD30F32162ECDC400BCE829 /* CGIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD30F35162ECDC400BCE829 /* CGIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30F33162ECDC400BCE829 /* CGIRequest.m */; };
+		1DD30F36162ECDE300BCE829 /* CGIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30F03162E9C7F00BCE829 /* CGIKit.framework */; };
+		1DD30F39162ECE0100BCE829 /* CGITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30F38162ECE0100BCE829 /* CGITest.m */; };
+		1DD30F3C162ED02C00BCE829 /* CGIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD30F3A162ED02C00BCE829 /* CGIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD30F3D162ED02C00BCE829 /* CGIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30F3B162ED02C00BCE829 /* CGIResponse.m */; };
+		1DD30F4A162F202400BCE829 /* GPL in Resources */ = {isa = PBXBuildFile; fileRef = 1DD30F49162F202400BCE829 /* GPL */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DD30F1D162E9CB100BCE829 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1DD30F29162E9CB100BCE829 /* ObjC_CGI.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DD30F03162E9C7F00BCE829 /* CGIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD30F06162E9C7F00BCE829 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1DD30F09162E9C7F00BCE829 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1DD30F0A162E9C7F00BCE829 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1DD30F0B162E9C7F00BCE829 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DD30F0E162E9C7F00BCE829 /* CGIKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGIKit-Info.plist"; sourceTree = "<group>"; };
+		1DD30F10162E9C8000BCE829 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DD30F12162E9C8000BCE829 /* CGIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGIKit-Prefix.pch"; sourceTree = "<group>"; };
+		1DD30F13162E9C8000BCE829 /* CGIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGIKit.h; sourceTree = "<group>"; };
+		1DD30F1F162E9CB100BCE829 /* ObjC-CGI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-CGI"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD30F21162E9CB100BCE829 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DD30F24162E9CB100BCE829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DD30F27162E9CB100BCE829 /* ObjC-CGI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC-CGI-Prefix.pch"; sourceTree = "<group>"; };
+		1DD30F28162E9CB100BCE829 /* ObjC_CGI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjC_CGI.1; sourceTree = "<group>"; };
+		1DD30F2D162EA48300BCE829 /* CGIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIApplication.h; sourceTree = "<group>"; };
+		1DD30F2E162EA48300BCE829 /* CGIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIApplication.m; sourceTree = "<group>"; };
+		1DD30F32162ECDC400BCE829 /* CGIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIRequest.h; sourceTree = "<group>"; };
+		1DD30F33162ECDC400BCE829 /* CGIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIRequest.m; sourceTree = "<group>"; };
+		1DD30F37162ECE0100BCE829 /* CGITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGITest.h; sourceTree = "<group>"; };
+		1DD30F38162ECE0100BCE829 /* CGITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGITest.m; sourceTree = "<group>"; };
+		1DD30F3A162ED02C00BCE829 /* CGIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGIResponse.h; sourceTree = "<group>"; };
+		1DD30F3B162ED02C00BCE829 /* CGIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGIResponse.m; sourceTree = "<group>"; };
+		1DD30F42162F169400BCE829 /* CGICommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGICommon.h; sourceTree = "<group>"; };
+		1DD30F48162F1FF800BCE829 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1DD30F49162F202400BCE829 /* GPL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GPL; sourceTree = "<group>"; };
+		1DD30F4F162F214B00BCE829 /* BSDL */ = {isa = PBXFileReference; lastKnownFileType = text; path = BSDL; sourceTree = "<group>"; };
+		1DD30F51162F217800BCE829 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD30EFF162E9C7F00BCE829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD30F07162E9C7F00BCE829 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD30F1C162E9CB100BCE829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD30F36162ECDE300BCE829 /* CGIKit.framework in Frameworks */,
+				1DD30F22162E9CB100BCE829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD30EF7162E9C7F00BCE829 = {
+			isa = PBXGroup;
+			children = (
+				1DD30F48162F1FF800BCE829 /* LICENSE */,
+				1DD30F49162F202400BCE829 /* GPL */,
+				1DD30F4F162F214B00BCE829 /* BSDL */,
+				1DD30F51162F217800BCE829 /* README */,
+				1DD30F0C162E9C7F00BCE829 /* CGIKit */,
+				1DD30F23162E9CB100BCE829 /* ObjC-CGI */,
+				1DD30F05162E9C7F00BCE829 /* Frameworks */,
+				1DD30F04162E9C7F00BCE829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD30F04162E9C7F00BCE829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30F03162E9C7F00BCE829 /* CGIKit.framework */,
+				1DD30F1F162E9CB100BCE829 /* ObjC-CGI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD30F05162E9C7F00BCE829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30F06162E9C7F00BCE829 /* Cocoa.framework */,
+				1DD30F21162E9CB100BCE829 /* Foundation.framework */,
+				1DD30F08162E9C7F00BCE829 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DD30F08162E9C7F00BCE829 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30F09162E9C7F00BCE829 /* AppKit.framework */,
+				1DD30F0A162E9C7F00BCE829 /* CoreData.framework */,
+				1DD30F0B162E9C7F00BCE829 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1DD30F0C162E9C7F00BCE829 /* CGIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30F13162E9C8000BCE829 /* CGIKit.h */,
+				1DD30F42162F169400BCE829 /* CGICommon.h */,
+				1DD30F2D162EA48300BCE829 /* CGIApplication.h */,
+				1DD30F2E162EA48300BCE829 /* CGIApplication.m */,
+				1DD30F32162ECDC400BCE829 /* CGIRequest.h */,
+				1DD30F33162ECDC400BCE829 /* CGIRequest.m */,
+				1DD30F3A162ED02C00BCE829 /* CGIResponse.h */,
+				1DD30F3B162ED02C00BCE829 /* CGIResponse.m */,
+				1DD30F0D162E9C7F00BCE829 /* Supporting Files */,
+			);
+			path = CGIKit;
+			sourceTree = "<group>";
+		};
+		1DD30F0D162E9C7F00BCE829 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30F0E162E9C7F00BCE829 /* CGIKit-Info.plist */,
+				1DD30F0F162E9C8000BCE829 /* InfoPlist.strings */,
+				1DD30F12162E9C8000BCE829 /* CGIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DD30F23162E9CB100BCE829 /* ObjC-CGI */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30F28162E9CB100BCE829 /* ObjC_CGI.1 */,
+				1DD30F26162E9CB100BCE829 /* Supporting Files */,
+				1DD30F37162ECE0100BCE829 /* CGITest.h */,
+				1DD30F38162ECE0100BCE829 /* CGITest.m */,
+			);
+			path = "ObjC-CGI";
+			sourceTree = "<group>";
+		};
+		1DD30F26162E9CB100BCE829 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30F24162E9CB100BCE829 /* main.m */,
+				1DD30F27162E9CB100BCE829 /* ObjC-CGI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DD30F00162E9C7F00BCE829 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD30F2F162EA48300BCE829 /* CGIApplication.h in Headers */,
+				1DD30F31162EA4A100BCE829 /* CGIKit.h in Headers */,
+				1DD30F34162ECDC400BCE829 /* CGIRequest.h in Headers */,
+				1DD30F3C162ED02C00BCE829 /* CGIResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DD30F02162E9C7F00BCE829 /* CGIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD30F18162E9C8000BCE829 /* Build configuration list for PBXNativeTarget "CGIKit" */;
+			buildPhases = (
+				1DD30EFE162E9C7F00BCE829 /* Sources */,
+				1DD30EFF162E9C7F00BCE829 /* Frameworks */,
+				1DD30F00162E9C7F00BCE829 /* Headers */,
+				1DD30F01162E9C7F00BCE829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGIKit;
+			productName = CGIKit;
+			productReference = 1DD30F03162E9C7F00BCE829 /* CGIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DD30F1E162E9CB100BCE829 /* ObjC-CGI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD30F2A162E9CB100BCE829 /* Build configuration list for PBXNativeTarget "ObjC-CGI" */;
+			buildPhases = (
+				1DD30F1B162E9CB100BCE829 /* Sources */,
+				1DD30F1C162E9CB100BCE829 /* Frameworks */,
+				1DD30F1D162E9CB100BCE829 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjC-CGI";
+			productName = "ObjC-CGI";
+			productReference = 1DD30F1F162E9CB100BCE829 /* ObjC-CGI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD30EF9162E9C7F00BCE829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CGI;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "myWorld Creations";
+			};
+			buildConfigurationList = 1DD30EFC162E9C7F00BCE829 /* Build configuration list for PBXProject "CGIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DD30EF7162E9C7F00BCE829;
+			productRefGroup = 1DD30F04162E9C7F00BCE829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD30F02162E9C7F00BCE829 /* CGIKit */,
+				1DD30F1E162E9CB100BCE829 /* ObjC-CGI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD30F01162E9C7F00BCE829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD30F11162E9C8000BCE829 /* InfoPlist.strings in Resources */,
+				1DD30F4A162F202400BCE829 /* GPL in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD30EFE162E9C7F00BCE829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD30F30162EA48300BCE829 /* CGIApplication.m in Sources */,
+				1DD30F35162ECDC400BCE829 /* CGIRequest.m in Sources */,
+				1DD30F3D162ED02C00BCE829 /* CGIResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD30F1B162E9CB100BCE829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD30F25162E9CB100BCE829 /* main.m in Sources */,
+				1DD30F39162ECE0100BCE829 /* CGITest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DD30F0F162E9C8000BCE829 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD30F10162E9C8000BCE829 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD30F16162E9C8000BCE829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fobjc-gc";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DD30F17162E9C8000BCE829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "-fobjc-gc";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DD30F19162E9C8000BCE829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGIKit/CGIKit-Prefix.pch";
+				INFOPLIST_FILE = "CGIKit/CGIKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DD30F1A162E9C8000BCE829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGIKit/CGIKit-Prefix.pch";
+				INFOPLIST_FILE = "CGIKit/CGIKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DD30F2B162E9CB100BCE829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjC-CGI/ObjC-CGI-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DD30F2C162E9CB100BCE829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjC-CGI/ObjC-CGI-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD30EFC162E9C7F00BCE829 /* Build configuration list for PBXProject "CGIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD30F16162E9C8000BCE829 /* Debug */,
+				1DD30F17162E9C8000BCE829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD30F18162E9C8000BCE829 /* Build configuration list for PBXNativeTarget "CGIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD30F19162E9C8000BCE829 /* Debug */,
+				1DD30F1A162E9C8000BCE829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD30F2A162E9CB100BCE829 /* Build configuration list for PBXNativeTarget "ObjC-CGI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD30F2B162E9CB100BCE829 /* Debug */,
+				1DD30F2C162E9CB100BCE829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DD30EF9162E9C7F00BCE829 /* Project object */;
+}

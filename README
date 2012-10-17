@@ -1,0 +1,38 @@
+CGIKit - A new Objective-C web development concept.
+
+CGIKit is a simple library to develop simple yet strong Objective-C CGI web
+applications.
+
+0 History on Objective and web development.
+
+Just to mention, the first ever web browser is written in Objective-C.
+
+Well before this project ever started, there was a properitary product that NeXT
+& Apple maintained, called WebObjects. That framework was a good tool to design
+and deploy Objective-C based web apps. Sadly Apple decided to port the entire
+project to Java, leaving Objective-C out of the world of web development.
+
+1 Aim of this project
+
+This project is to create a set of simple objects to allow writing CGI web apps
+in Objective-C.
+
+However this project is not a drop-in replace of legacy WebObjects 4.5. Instead
+it is a new, significantly simpler design concept borrowed from ASP.net (where I
+personally shifted from before picking up Objective-C.)
+
+2 Principle design
+
+There will be and only be 3 principle classes: CGIApplication, CGIRequest and
+CGIResponse.
+
+CGIApplication is just like NSApplication for desktop Cocoa apps, but with a
+simpler lifecycle due to the nature of CGI.
+
+CGIRequest holds the request data and CGIResponse holds the response data
+respectively.
+
+3 Out of Mac
+
+These classes are intended to compile and work with GNUstep on Linux boxes.
+However there is a big to-do since my personal attempts crashed, once & again.
