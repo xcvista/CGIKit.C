@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DB2B54A1637CBFC00BF8D6D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2B5491637CBFB00BF8D6D /* Makefile */; };
 		1DD30F07162E9C7F00BCE829 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30F06162E9C7F00BCE829 /* Cocoa.framework */; };
 		1DD30F11162E9C8000BCE829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DD30F0F162E9C8000BCE829 /* InfoPlist.strings */; };
 		1DD30F22162E9CB100BCE829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30F21162E9CB100BCE829 /* Foundation.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1DB2B5491637CBFB00BF8D6D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; usesTabs = 1; };
 		1DD30F03162E9C7F00BCE829 /* CGIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD30F06162E9C7F00BCE829 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1DD30F09162E9C7F00BCE829 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -143,6 +145,7 @@
 				1DD30F3A162ED02C00BCE829 /* CGIResponse.h */,
 				1DD30F3B162ED02C00BCE829 /* CGIResponse.m */,
 				1DD30F0D162E9C7F00BCE829 /* Supporting Files */,
+				1DB2B5491637CBFB00BF8D6D /* Makefile */,
 			);
 			path = CGIKit;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				1DD30F30162EA48300BCE829 /* CGIApplication.m in Sources */,
 				1DD30F35162ECDC400BCE829 /* CGIRequest.m in Sources */,
 				1DD30F3D162ED02C00BCE829 /* CGIResponse.m in Sources */,
+				1DB2B54A1637CBFC00BF8D6D /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
